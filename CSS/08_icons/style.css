@@ -1,0 +1,14 @@
+body {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.fa-dice {
+    font-size: 200px; /* Adjust the size as needed */
+    color: #E74C3C;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+button{
+    color: white;
+    background-color: #229954;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px;
+    font-size:25px;
+    font-weight: bold;
+    border: #E5E7E9;
+    box-shadow: 0 0 10px #58D68D ;
+}
+
+/* button:hover, Button = selector,  hover = psuedo class  */
+button:hover{
+    background-color: #1ABC9C 
+    ;
+}

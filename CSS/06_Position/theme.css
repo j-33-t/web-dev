@@ -1,0 +1,47 @@
+body {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    grid-column-gap: 5px;
+}
+
+
+.item {
+    color:white;
+    font-weight: bold; /* Increase font thickness */
+    font-family:sans-serif;
+    font-size: 25px;
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 5px;
+    border-radius: 8px;
+
+    
+}
+
+/* Define retro punch colors */
+.color1 { background-color: #FF4057; }
+.color2 { background-color: #F1C40F; }
+.color3 { background-color: #FF9F1C; }
+.color4 { background-color: #4B3F72; }
+.color5 { background-color: #51C1D3; }
+.color6 { background-color: #F1C40F; }
+.color7 { background-color: #DB504A; }
+.color8 { background-color: #FFC5A1; }
+.color9 { background-color: #CA3756; }
+.color10 { background-color: #4086F4; }
+.color11 { background-color: #AD3E42; }
+.color12 { background-color: #6E8B3D; }
+
+

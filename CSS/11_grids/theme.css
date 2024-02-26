@@ -1,0 +1,30 @@
+
+body{
+    background-color: #E5E4E2;
+}
+
+.container{
+    border: 1px solid #D0D3D4;
+    border-radius: 10px; 
+    box-shadow: 1px 1px 10px  grey;
+    padding: 10px;
+    margin: 20px;
+}
+
+.item {
+    color:white;
+    background-color: #BDC3C7;
+    font-weight: bold; /* Increase font thickness */
+    font-family:sans-serif;
+    text-shadow: 1px 1px 5px black;
+    font-size: 25px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 5px;
+    border-radius:10px;
+    box-shadow: 1px 1px 5px grey ;
+    
+    
+}
+

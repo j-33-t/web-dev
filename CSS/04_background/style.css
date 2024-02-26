@@ -1,0 +1,17 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    color: #E97451	;
+    font-size: 100px;
+    text-align: center;
+    border-style: inset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    text-align:justify;
+}
