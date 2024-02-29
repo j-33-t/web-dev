@@ -1,17 +1,60 @@
+* {
+    font-family: "DM Serif Display", serif;
+  }
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height:100vh;
-    background-color: RED;
+    background-color: #483519;
 }
 
 .container{
-    background-color: blue;
+    min-height: 400px;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 16px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .profile-picture img{
-    max-width: 200px;
+    margin-top: 0%;
+    width: 100%;
+    min-height: 100px;
+    max-height: 150px;
     border-radius: 50%;
 
   }
   
+.profile-name{
+    color: white;
+    font-weight: bold;
+}
+
+.profile-info{
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 3 columns of equal width */
+    gap: 20px; /* Gap between grid items */
+}
+
+.fa-brands{
+    font-size: 25px;
+    color: white;
+}
