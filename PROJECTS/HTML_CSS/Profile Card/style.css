@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: RED;
+}
+
+.container{
+    background-color: blue;
+}
+.profile-picture img{
+    max-width: 200px;
+    border-radius: 50%;
+
+  }
+  
