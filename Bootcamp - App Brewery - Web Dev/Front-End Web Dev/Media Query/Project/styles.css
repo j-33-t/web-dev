@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    color: chocolate;
+}
+
+.heading-main{
+    color: navy;
+}
+
+section {
+    display: flex;
+    gap: 10px;
+}
+
+.image{
+    max-height: 50%;
+    max-width: 50%;
+    float: left;
+}
+
+.text-image{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+
+footer{
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+@media (max-width: 600px){
+
+    .image{
+        max-height: 50vh;
+        max-width: 50vw;
+        float: none;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+}

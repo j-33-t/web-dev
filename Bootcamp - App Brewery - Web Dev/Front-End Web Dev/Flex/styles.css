@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    gap:10px;
+}
+
+.item{
+    background: rgba(51, 170, 51, .1);
+    padding:10px;  
+}

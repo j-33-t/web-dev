@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Pricing Table</title>
+
+    <style>
+
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 95vw;
+        }
+
+        .container-pricing{
+            display:flex;
+            gap: 10px;
+        }
+
+        .price-label{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 1px 1px 10px #CACFD2 ;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .price-label .price {
+            font-size: 150%;
+        }
+
+
+        @media (max-width:600px) {
+
+            body{
+            display: flex;
+            align-items: flex-start;
+            }
+            
+            .container-pricing{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-pricing">
+        
+        <div class="price-label basic">
+
+            <p class="title">Basic</p>
+            <h1 class="price">$11.99 / month</h1>
+            <p class="storage"> ✅ 10 GB Storage</p>
+            <p class="user">✅ 1 user</p>
+            <p class="support">🚫 support</p>
+        </div>
+
+        <div class="price-label standard">
+
+            <p class="title">Standard</p>
+            <h1 class="price">$19.99 / month</h1>
+            <p class="storage"> ✅ 50 GB Storage</p>
+            <p class="user">✅ 5 users</p>
+            <p class="support">✅ Phone and Email support</p>
+        </div>
+
+        <div class="price-label premium">
+
+            <p class="title">Premium</p>
+            <h1 class="price">$49.99 / month</h1>
+            <p class="storage"> ✅ 500 GB Storage</p>
+            <p class="user">✅ 10 users</p>
+            <p class="support">✅ 24/7 support</p>
+        </div>
+    </div>
+    
+</body>
+</html>
