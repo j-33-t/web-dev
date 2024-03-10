@@ -1,0 +1,54 @@
+body{
+    height: 80vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color:darkslateblue;
+}
+
+h1{
+    color: white;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;    
+}
+
+button{
+    border: 0px;
+}
+
+.item{
+    width: 15vw;
+    height: 30vh;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 10px;
+    
+}
+
+.instru1{
+    background-image: url("./images/bass-drum.webp");
+    background-size:cover;
+}
+
+.item:hover{
+    box-shadow: 1px 1px 10px white;
+}
+
+.instru2{
+    background-image: url("./images/Classic-Hi-hats.webp");
+    background-size:cover;
+}
+
+ .instru3{
+    background-image: url("./images/snare-drum.jpg");
+    background-size:cover;
+}
+
+
+

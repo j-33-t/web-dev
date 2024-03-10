@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #011F3F;
+}
+h1{
+    font-size: 4em;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: beige;
+    }
+
+.container{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    gap: 30px;
+
+}
+
+.item{
+    min-width: 15vw;
+    min-height: 25vh;
+
+    max-width:15vw ;
+    max-height: 25vh;
+
+    border-radius: 50px;
+    border: solid black .5rem;
+}
+
+
+
+.box1{
+    background-color: red;
+    
+}
+
+.box2{
+    background-color: forestgreen;
+}
+
+.box3{
+    background-color: yellow;
+}
+
+.box4{
+    background-color: blue;
+}
+
+.item:hover{background-color: white; box-shadow: 1px 1px 10px white;} 
