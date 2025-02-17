@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="./favicon/todo-favicon.png" />
+
+  </head>
+  <body>
+    <div id ='todo-container'>
+        <header>
+            <h1>To-do</h1>
+        </header>
+    
+        <section id = "todo-app">
+                <form id = "todo-form">
+                    <input type="text" id="task-input" placeholder="Enter new task" required>
+                    <button type = "submit">Add Task</button>
+                </form>
+                <ul id="task-list"></ul>
+        </section>
+
+        <section>
+            <button id="filter-all">All Tasks</button>
+            <button id="filter-active">Active Task</button>
+            <button id="filter-completed">Done</button>
+        </section>
+
+        <section id="clear-tasks">
+            <button id="clear-completed">Clear Completed Task</button>
+        </section>
+          
+
+      </div>
+    
+
+      <script src="dist/bundle.js"></script>
+  </body>
+</html>

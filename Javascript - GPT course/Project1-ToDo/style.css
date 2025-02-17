@@ -1,0 +1,65 @@
+body{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#task-list{
+    list-style-type:none;
+    gap: 10px;
+}
+
+header{
+    text-align: center;
+    
+}
+
+
+.completed {
+    color: lightgrey;
+  }
+
+
+  
+.delete-mark {
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    border: 0px;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+}
+
+
+
+  li {
+    transition: background-color 0.3s ease;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+

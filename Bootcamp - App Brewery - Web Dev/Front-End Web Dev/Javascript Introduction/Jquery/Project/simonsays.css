@@ -12,7 +12,7 @@ body{
     background-color: #011F3F;
 }
 h1{
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -31,14 +31,14 @@ h1{
 }
 
 .item{
-    min-width: 15vw;
-    min-height: 25vh;
+    min-width: 200px;
+    min-height: 200px;
 
-    max-width:15vw ;
-    max-height: 25vh;
+    max-width:200px ;
+    max-height: 200px;
 
     border-radius: 50px;
-    border: solid black .5rem;
+    border: solid black .45rem;
 }
 
 
@@ -60,4 +60,9 @@ h1{
     background-color: blue;
 }
 
-.item:hover{background-color: white; box-shadow: 1px 1px 10px white;} 
+
+
+.item:active{ 
+    transform: scale(0.98);
+    box-shadow: 1px 1px 10px white;
+}
